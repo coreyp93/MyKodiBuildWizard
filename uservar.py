@@ -13,7 +13,7 @@ ART            = os.path.join(PATH, 'resources', 'art')
 ADDON_ID       = xbmcaddon.Addon().getAddonInfo('id')
 ADDONTITLE     = '[B]My Kodi [COLOR dodgerblue]Build[/COLOR] Wizard[/B]'
 BUILDERNAME    = 'MyKodiBuild'
-EXCLUDES       = [ADDON_ID, 'repository.MyKodiBuild', 'plugin.program.mykodibuildwizard']
+EXCLUDES       = [ADDON_ID, 'repository.MyKodiBuild', 'plugin.program.MyKodiBuildWizard']
 # Enable/Disable the text file caching with 'Yes' or 'No' and age being how often it rechecks in minutes
 CACHETEXT      = 'Yes'
 CACHEAGE       = 30
@@ -78,7 +78,7 @@ THEME5         = '[COLOR '+COLOR1+']Current Theme:[/COLOR] [COLOR '+COLOR2+']%s[
 # Enable 'Contact' menu item 'Yes' hide or 'No' dont hide
 HIDECONTACT    = 'No'
 # You can add \n to do line breaks
-CONTACT        = 'Thank you for choosing Aftermath Wizard.\n\nContact us on Github at https://github.com/coreyp93/plugin.program.MyKodiBuildWizard/'
+CONTACT        = 'Thank you for choosing MyKodiBuild Wizard.\n\nContact us on Github at https://github.com/coreyp93/plugin.program.MyKodiBuildWizard/'
 #Images used for the contact window.  http:// for default icon and fanart
 CONTACTICON    = 'http://'
 CONTACTFANART  = 'http://'
