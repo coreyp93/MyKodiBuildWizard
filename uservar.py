@@ -64,7 +64,7 @@ SPACER         = '='
 COLOR1         = 'dodgerblue'
 COLOR2         = 'white'
 # Primary menu items   / %s is the menu item and is required
-THEME1         = '[COLOR '+COLOR1+'][B][I]([COLOR '+COLOR2+']MyKodiBuild[/COLOR])[/I][/B][/COLOR] [COLOR '+COLOR2+']%s[/COLOR]'
+THEME1         = '[COLOR '+COLOR1+'][B][COLOR '+COLOR2+']MyKodi[/COLOR]Build[/B][/COLOR] [COLOR '+COLOR2+']%s[/COLOR]'
 # Build Names          / %s is the menu item and is required
 THEME2         = '[COLOR '+COLOR2+']%s[/COLOR]'
 # Alternate items      / %s is the menu item and is required
