@@ -1,4 +1,5 @@
 1
 |||
+MyKodiBuilds Update Notifications.
 
-Your message here.
+New OpenWizard Intergration Added With Python 3 Compatibility.
