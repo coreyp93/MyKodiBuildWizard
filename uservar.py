@@ -62,8 +62,10 @@ SPACER = '='
 # THEME's so it grabs the text from the menu item
 COLOR1 = 'dodgerblue'
 COLOR2 = 'white'
+COLOR3 = 'deepskyblue'
+COLOR4 = 'gold'
 # Primary menu items   / {0} is the menu item and is required
-THEME1 = '[COLOR '+COLOR1+'][B][COLOR '+COLOR2+']MyKodi[/COLOR]Build[/B][/COLOR] [COLOR '+COLOR2+']%s[/COLOR]'
+THEME1 = '[I][COLOR '+COLOR1+'][B][COLOR '+COLOR2+'](MK[/COLOR]B[/B][/COLOR][COLOR '+COLOR2+'][B])[/B][/COLOR][/I][COLOR '+COLOR2+'] {0}[/COLOR]'
 # Build Names          / {0} is the menu item and is required
 THEME2 = '[COLOR '+COLOR2+']{0}[/COLOR]'
 # Alternate items      / {0} is the menu item and is required
