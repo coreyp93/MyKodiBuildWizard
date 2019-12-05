@@ -7,7 +7,7 @@ import os
 #########################################################
 ADDON_ID = xbmcaddon.Addon().getAddonInfo('id')
 PATH = xbmcaddon.Addon().getAddonInfo('path')
-ART = os.path.join(PATH, 'resources', 'art')
+ART = os.path.join(PATH, 'resources', 'media')
 #########################################################
 
 #########################################################
@@ -29,7 +29,7 @@ YOUTUBEFILE = 'http://'
 # Text File for addon installer.  Leave as 'http://' to ignore
 ADDONFILE = 'http://'
 # Text File for advanced settings.  Leave as 'http://' to ignore
-ADVANCEDFILE = 'https://raw.githubusercontent.com/coreyp93/plugin.program.mykodibuildwizard/master/resources/text/advanced.txt'
+ADVANCEDFILE = 'http://'
 #########################################################
 
 #########################################################
