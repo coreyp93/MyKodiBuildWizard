@@ -13,7 +13,7 @@ ART            = os.path.join(PATH, 'resources', 'art')
 ADDON_ID       = xbmcaddon.Addon().getAddonInfo('id')
 ADDONTITLE     = '[B]My Kodi [COLOR dodgerblue]Build[/COLOR] Wizard[/B]'
 BUILDERNAME    = 'MyKodiBuild'
-EXCLUDES       = [ADDON_ID, 'repository.MyKodiBuild', 'plugin.program.MyKodiBuildWizard']
+EXCLUDES       = [ADDON_ID, 'repository.MyKodiBuild']
 # Enable/Disable the text file caching with 'Yes' or 'No' and age being how often it rechecks in minutes
 CACHETEXT      = 'Yes'
 CACHEAGE       = 30
