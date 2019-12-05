@@ -1,8 +1,4 @@
 1
 |||
-MyKodiBuilds Update Notifications.
 
-Builds Are Out! 
-click FRESH INSTALL! Once install is done, click force close
-and re-open kodi afterwards and you're good to go.
-
+Your message here.
