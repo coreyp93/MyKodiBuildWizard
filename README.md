@@ -1,5 +1,5 @@
-# plugin.program.MyKodiBuildWizard
-MyKodiBuildWizard
+# plugin.program.MyKodiBuild.OpenWizard
+MyKodiBuild.OpenWizard
 
 Currently, this version of the wizard supports:
 
