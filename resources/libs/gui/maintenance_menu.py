@@ -56,25 +56,25 @@ class MaintenanceMenu:
 
         directory.add_file(
             'Total Clean Up: [COLOR springgreen][B]{0}[/B][/COLOR]'.format(tools.convert_size(totalsize)), {'mode': 'fullclean'},
-            icon=CONFIG.ICONMAINT, themeit=CONFIG.THEME3)
+            icon=CONFIG.ICONTCU, themeit=CONFIG.THEME3)
         directory.add_file('Clear Cache: [COLOR springgreen][B]{0}[/B][/COLOR]'.format(tools.convert_size(sizecache)),
-                           {'mode': 'clearcache'}, icon=CONFIG.ICONMAINT, themeit=CONFIG.THEME3)
+                           {'mode': 'clearcache'}, icon=CONFIG.ICONCACHE, themeit=CONFIG.THEME3)
         if xbmc.getCondVisibility('System.HasAddon(script.module.urlresolver)') or xbmc.getCondVisibility(
                 'System.HasAddon(script.module.resolveurl)'):
-            directory.add_file('Clear Resolver Function Caches', {'mode': 'clearfunctioncache'}, icon=CONFIG.ICONMAINT,
+            directory.add_file('Clear Resolver Function Caches', {'mode': 'clearfunctioncache'}, icon=CONFIG.ICONCACHE,
                                themeit=CONFIG.THEME3)
         directory.add_file('Clear Packages: [COLOR springgreen][B]{0}[/B][/COLOR]'.format(tools.convert_size(sizepack)),
-                           {'mode': 'clearpackages'}, icon=CONFIG.ICONMAINT, themeit=CONFIG.THEME3)
+                           {'mode': 'clearpackages'}, icon=CONFIG.ICONPACKAGES, themeit=CONFIG.THEME3)
         directory.add_file(
             'Clear Thumbnails: [COLOR springgreen][B]{0}[/B][/COLOR]'.format(tools.convert_size(sizethumb)),
-            {'mode': 'clearthumb'}, icon=CONFIG.ICONMAINT, themeit=CONFIG.THEME3)
+            {'mode': 'clearthumb'}, icon=CONFIG.ICONTHUMBS, themeit=CONFIG.THEME3)
         if os.path.exists(CONFIG.ARCHIVE_CACHE):
             directory.add_file('Clear Archive_Cache: [COLOR springgreen][B]{0}[/B][/COLOR]'.format(
-                tools.convert_size(archive)), {'mode': 'cleararchive'}, icon=CONFIG.ICONMAINT, themeit=CONFIG.THEME3)
-        directory.add_file('Clear Old Thumbnails', {'mode': 'oldThumbs'}, icon=CONFIG.ICONMAINT, themeit=CONFIG.THEME3)
-        directory.add_file('Clear Crash Logs', {'mode': 'clearcrash'}, icon=CONFIG.ICONMAINT, themeit=CONFIG.THEME3)
-        directory.add_file('Purge Databases', {'mode': 'purgedb'}, icon=CONFIG.ICONMAINT, themeit=CONFIG.THEME3)
-        directory.add_file('Fresh Start', {'mode': 'freshstart'}, icon=CONFIG.ICONMAINT, themeit=CONFIG.THEME3)
+                tools.convert_size(archive)), {'mode': 'cleararchive'}, icon=CONFIG.ICONARCHIVECACHE, themeit=CONFIG.THEME3)
+        directory.add_file('Clear Old Thumbnails', {'mode': 'oldThumbs'}, icon=CONFIG.ICONOLDTHUMBS, themeit=CONFIG.THEME3)
+        directory.add_file('Clear Crash Logs', {'mode': 'clearcrash'}, icon=CONFIG.ICONLOGS, themeit=CONFIG.THEME3)
+        directory.add_file('Purge Databases', {'mode': 'purgedb'}, icon=CONFIG.ICONDATABASES, themeit=CONFIG.THEME3)
+        directory.add_file('Fresh Start', {'mode': 'freshstart'}, icon=CONFIG.ICONFRESHSTART, themeit=CONFIG.THEME3)
 
         directory.add_file('Auto Clean', fanart=CONFIG.ADDON_FANART, icon=CONFIG.ICONMAINT, themeit=CONFIG.THEME1)
         directory.add_file('Auto Clean Up On Startup: {0}'.format(autoclean.replace('true', on).replace('false', off)),

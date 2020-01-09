@@ -59,6 +59,15 @@ class Config:
         # Themeing Menu Items
         self.ICONBUILDS = uservar.ICONBUILDS if not uservar.ICONBUILDS.endswith('://') else self.ADDON_ICON
         self.ICONMAINT = uservar.ICONMAINT if not uservar.ICONMAINT.endswith('://') else self.ADDON_ICON
+        self.ICONTCU = uservar.ICONTCU if not uservar.ICONTCU.endswith('://') else self.ADDON_ICON
+        self.ICONCACHE = uservar.ICONCACHE if not uservar.ICONCACHE.endswith('://') else self.ADDON_ICON
+        self.ICONPACKAGES = uservar.ICONPACKAGES if not uservar.ICONPACKAGES.endswith('://') else self.ADDON_ICON
+        self.ICONTHUMBS = uservar.ICONTHUMBS if not uservar.ICONTHUMBS.endswith('://') else self.ADDON_ICON
+        self.ICONARCHIVECACHE = uservar.ICONARCHIVECACHE if not uservar.ICONARCHIVECACHE.endswith('://') else self.ADDON_ICON
+        self.ICONOLDTHUMBS = uservar.ICONOLDTHUMBS if not uservar.ICONOLDTHUMBS.endswith('://') else self.ADDON_ICON
+        self.ICONLOGS = uservar.ICONLOGS if not uservar.ICONLOGS.endswith('://') else self.ADDON_ICON
+        self.ICONDATABASES = uservar.ICONDATABASES if not uservar.ICONDATABASES.endswith('://') else self.ADDON_ICON
+        self.ICONFRESHSTART = uservar.ICONFRESHSTART if not uservar.ICONFRESHSTART.endswith('://') else self.ADDON_ICON
         self.ICONSPEED = uservar.ICONSPEED if not uservar.ICONSPEED.endswith('://') else self.ADDON_ICON
         self.ICONAPK = uservar.ICONAPK if not uservar.ICONAPK.endswith('://') else self.ADDON_ICON
         self.ICONADDONS = uservar.ICONADDONS if not uservar.ICONADDONS.endswith('://') else self.ADDON_ICON
