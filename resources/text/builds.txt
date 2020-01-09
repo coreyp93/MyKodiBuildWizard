@@ -30,7 +30,7 @@ adult="no"
 info="http://coreyp93.000webhostapp.com/Kodi/Buildtxts/Shield_Build.txt"
 description="MyKodiBuild Shield Build"
 
-name="Shield Build test"
+name="Shield Build 3"
 version="1.0"
 url="http://gofile.me/4Z7nd/Q2K9TSl2D"
 minor="http://"
