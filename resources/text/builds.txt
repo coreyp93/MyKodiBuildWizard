@@ -1,6 +1,6 @@
 id="plugin.program.MyKodiBuild.OpenWizard"
 version="1.1.0"
-zip="https://github.com/coreyp93/MyKodiBuild/blob/master/zips/plugin.program.MyKodiBuildOpenWizard/plugin.program.MyKodiBuildOpenWizard-1.1.0.zip"
+zip="https://github.com/coreyp93/MyKodiBuild/blob/master/zips/plugin.program.MyKodiBuild.OpenWizard/plugin.program.MyKodiBuild.OpenWizard-1.1.0.zip"
 
 name="Firestick Build"
 version="1.0"
